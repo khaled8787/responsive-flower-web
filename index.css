@@ -36,6 +36,34 @@ nav li{
 }
 
 
+/* hero section */
+.section-controller{
+    display: flex;
+    height: 461px;
+    width: 1140px;
+    margin: 70px auto;
+    align-items: end;
+}
+.always{
+    font-size: 65px;
+    font-weight: bold;
+    margin: 0;
+}
+.fresh{
+    color: #E95A08;
+}
+.sense{
+    font-size: 22px;
+    color: #8987A1;
+}
+.hero-flower{
+    height: 355px;
+    width: 570px;
+}
+
+
+
+
 
 
 
@@ -51,4 +79,18 @@ nav li{
         font-size: 20px;
         
     }
+    .section-controller{
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-top: 250px;
+    }
+   .section-controller-2{
+    height: 147px;
+    
+    align-items: start;
+    margin: 30px 10px;
+   }
+   .always{
+    font-size: 24px;
+   }
 }
