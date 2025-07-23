@@ -60,6 +60,54 @@ nav li{
     height: 355px;
     width: 570px;
 }
+.plant{
+    font-size: 3.1rem;
+    font-weight: bold;
+    margin: 0;
+}
+.div-controller{
+    text-align: center;
+}
+
+
+/* main part */
+.div-controller-2{
+    width: 270px;
+    height: 485px;
+    margin: 0;
+}
+.lilly{
+    font-size: 1.4rem;
+    text-align: center;
+   margin-bottom: 10px;
+}
+.twenty{
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 0;
+    padding-top: 5px;
+}
+.btn{
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #E95A08;
+    border: none;
+    padding: 10px 97px;
+    text-align: center;
+    white-space: nowrap;
+}
+.section-controller-3{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 200px;
+    place-items: center;
+    gap: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 
 
@@ -92,5 +140,27 @@ nav li{
    }
    .always{
     font-size: 24px;
+   }
+   .div-controller{
+    padding: 0 10px;
+   }
+
+
+   /* main part */
+   .section-controller-3{
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0;
+    width: 100%;
+    margin: auto;
+   }
+   .div-controller-2{
+    width: 100%;
+   }
+   .btn{
+    padding: 10px 88px;
+   }
+   .div-controller-2 img{
+    width: 250px;
+    
    }
 }
