@@ -1,0 +1,54 @@
+/* nav bar */
+.nav-controller{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 120px;
+}
+.nav-controller-2{
+    display: flex;
+    gap: 15px;
+}
+.nav-controller-3{
+    display: flex;
+    gap: 15px;
+}
+.logo{
+    width: 135px;
+    height: 82px;
+}
+
+nav li a{
+    text-decoration: none;
+}
+nav li{
+    list-style: none;
+}
+.home{
+   font-weight: 700;
+   color: black;
+}
+.shop{
+    color: #8987A1;
+}
+.cart{
+    color: black;
+}
+
+
+
+
+
+@media  screen and (max-width:576px) {
+    .nav-controller{
+        margin: 0;
+        align-items: center;
+    }
+    .nav-controller-2{
+        display: none;
+    }
+    .cart{
+        font-size: 20px;
+        
+    }
+}
