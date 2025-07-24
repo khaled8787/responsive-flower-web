@@ -248,7 +248,7 @@ nav li{
 }
 .email{
     padding: 8px 0;
-    padding-right: 30rem;
+    padding-right: 200px;
     padding-left: 10px;
     font-size: 1rem;
     color: #8987A1;
@@ -279,6 +279,29 @@ nav li{
 .div-controller-7{
     display: flex;
     justify-content: center;
+}
+
+
+
+/* footer section */
+.section-controller-7{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-items: center;
+}
+.text-controller-5{
+    width: 359px;
+}
+.blog{
+    margin-top: 15px;
+    color: #8987A1;
+}
+.icon{
+    margin-right: 25px;
+}
+.div-controller-8{
+    padding-bottom: 100px;
 }
 
 
@@ -324,17 +347,22 @@ nav li{
     margin: 0;
     width: 100%;
     margin: auto;
+    padding: 0 10px;
+    margin: 0 10px;
    }
    .div-controller-2{
     width: 100%;
    }
    .btn{
-    padding: 10px 88px;
+    padding: 10px 60px;
    }
    .div-controller-2 img{
-    width: 250px;
+    width: 200px;
     
    }
+.body{
+    overflow-x: hidden;
+}
 
 
 
@@ -358,11 +386,13 @@ nav li{
    }
    .flower-store{
     width: auto;
-    margin: 0 20px;
-    width: 480px;
+    
+    width: 100%;
+    margin: 0 auto;
    }
    .div-controller-3{
     margin-top: 570px;
+    margin-left: 0;
 
 }
 
@@ -399,5 +429,25 @@ nav li{
 }
 .email{
     padding: 8px 20px;
+}
+
+
+
+/* footer section */
+.section-controller-7{
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 0;
+    width: 100%;
+}
+.text-controller-6, .text-controller-7{
+    width: 100px;
+    margin-right: 0;
+    gap: 0;
+    margin-top: 0;
+}
+.div-controller-8{
+    width: 250px;
+    margin-right: 0;
 }
 }
