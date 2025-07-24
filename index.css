@@ -123,6 +123,7 @@ nav li{
     margin: 0 auto;
     align-items: center;
     margin-top: 200px;
+    margin-bottom: 100px;
 }
 .lover{
     font-size: 3.1rem;
@@ -145,6 +146,96 @@ nav li{
 .trusted-badge-2{
     height: 286px;
     width: 286px;
+}
+.deal{
+    font-size: 3.1rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.beauty{
+    color: #8987A1;
+    font-size: 1rem;
+}
+.div-controller-3{
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+/* main part 3 */
+.div-controller-4{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(assets/deal-bloom.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 366px;
+    height: 206px;
+    text-align: center;
+    
+    border-radius: 10px;
+}
+.bloom{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    
+}
+.shop{
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+.text-controller-2{
+    padding-top: 30px;
+}
+.text-controller-3{
+    padding-top: 170px;
+}
+
+.div-controller-5{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(assets/deal-ana.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 366px;
+    height: 206px;
+    text-align: center;
+    
+    border-radius: 10px;
+}
+.div-controller-6{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(assets/deal-zabo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 366px;
+    height: 206px;
+    text-align: center;
+    grid-row: span 2;
+    border-radius: 10px;
+}
+.zabo{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.now{
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+.section-controller-5{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    width: 1140px;
+    height: 423px;
+    margin: 50px auto;
+}
+
+
+.div-controller-4, .div-controller-5, .div-controller-6{
+    width: 100%;
+    height: 100%;
+    
 }
 
 
@@ -217,6 +308,7 @@ nav li{
     width: auto;
     height: 396px;
     margin: 0 10px;
+    position: static;
    }
    .trusted-badge-2{
     width: 350px;
@@ -226,4 +318,33 @@ nav li{
     margin: 0 20px;
     width: 480px;
    }
+   .div-controller-3{
+    margin-top: 570px;
+
+}
+
+.section-controller-5{
+   grid-template-columns: 1fr;
+   width: 100%;
+   height: auto;
+}
+.div-controller-6{
+   grid-row: 1;
+   display: flex;
+   flex-direction: column;
+   padding-bottom: 100px;
+}
+.div-controller-4, .div-controller-5, .div-controller-6{
+   width: 100%;
+   height: auto;
+   margin: 0;
+}
+.div-controller-4{
+    width: 100%;
+    padding-bottom: 100px;
+}
+.div-controller-5{
+    width: 100%;
+    padding-bottom: 100px;
+}
 }
