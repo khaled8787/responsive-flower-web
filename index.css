@@ -36,14 +36,6 @@ nav li{
 }
 
 
-.body{
-    font-style: inherit;
-}
-.body button:hover{
-    background-color: brown;
-}
-
-
 /* hero section */
 .section-controller{
     display: flex;
@@ -189,7 +181,7 @@ nav li{
     margin-bottom: 15px;
     
 }
-.shop-2{
+.shop{
     color: #FFFFFF;
     font-size: 1rem;
 }
@@ -256,7 +248,7 @@ nav li{
 }
 .email{
     padding: 8px 0;
-    padding-right: 200px;
+    padding-right: 30rem;
     padding-left: 10px;
     font-size: 1rem;
     color: #8987A1;
@@ -287,7 +279,6 @@ nav li{
 .div-controller-7{
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
 }
 
 
@@ -356,22 +347,17 @@ nav li{
     margin: 0;
     width: 100%;
     margin: auto;
-    padding: 0 10px;
-    margin: 0 10px;
    }
    .div-controller-2{
     width: 100%;
    }
    .btn{
-    padding: 10px 60px;
+    padding: 10px 88px;
    }
    .div-controller-2 img{
-    width: 200px;
+    width: 250px;
     
    }
-.body{
-    overflow-x: hidden;
-}
 
 
 
@@ -395,13 +381,11 @@ nav li{
    }
    .flower-store{
     width: auto;
-    
-    width: 100%;
-    margin: 0 auto;
+    margin: 0 20px;
+    width: 480px;
    }
    .div-controller-3{
     margin-top: 570px;
-    margin-left: 0;
 
 }
 
@@ -446,19 +430,26 @@ nav li{
 .section-controller-7{
     flex-direction: column;
     gap: 30px;
-    margin-left: 20px;
+    margin-left: 0;
     width: 100%;
-    justify-content: flex-start;
-    align-items: flex-start;
 }
 .text-controller-6, .text-controller-7{
     width: 100px;
-    margin-right: 0;
+    margin-right: 250px;
     gap: 0;
     margin-top: 0;
 }
 .div-controller-8{
     width: 250px;
-    margin-right: 0;
+    margin-right: 100px;
+}
+.btn{
+    padding: 10px 60px;
+}
+.div-controller-2 img{
+    width: 100%;
+}
+.body{
+    overflow-x: hidden;
 }
 }
