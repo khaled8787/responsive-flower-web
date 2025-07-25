@@ -36,6 +36,14 @@ nav li{
 }
 
 
+.body{
+    font-style: inherit;
+}
+.body button:hover{
+    background-color: brown;
+}
+
+
 /* hero section */
 .section-controller{
     display: flex;
@@ -181,7 +189,7 @@ nav li{
     margin-bottom: 15px;
     
 }
-.shop{
+.shop-2{
     color: #FFFFFF;
     font-size: 1rem;
 }
@@ -279,6 +287,7 @@ nav li{
 .div-controller-7{
     display: flex;
     justify-content: center;
+    padding-bottom: 50px;
 }
 
 
@@ -437,8 +446,10 @@ nav li{
 .section-controller-7{
     flex-direction: column;
     gap: 30px;
-    margin-left: 0;
+    margin-left: 20px;
     width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 .text-controller-6, .text-controller-7{
     width: 100px;
