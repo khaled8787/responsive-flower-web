@@ -1,4 +1,7 @@
 /* nav bar */
+body button:hover{
+   background-color: brown;
+}
 .nav-controller{
     display: flex;
     justify-content: space-between;
@@ -181,7 +184,7 @@ nav li{
     margin-bottom: 15px;
     
 }
-.shop{
+.shop-2{
     color: #FFFFFF;
     font-size: 1rem;
 }
@@ -451,5 +454,8 @@ nav li{
 }
 .body{
     overflow-x: hidden;
+}
+body button:hover{
+   background-color: brown;
 }
 }
